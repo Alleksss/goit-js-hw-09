@@ -37,7 +37,7 @@ function updateCountdown(targetTime) {
 
   if (timeLeft <= 0) {
     clearInterval(countdownIntervalId);
-    updateTimerDisplay(0);
+    updateTimerDisplay(0, 0, 0, 0);
     return;
     };
 
