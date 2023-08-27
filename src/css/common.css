@@ -16,3 +16,32 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px; 
+  margin-bottom: 100px;
+}
+
+.timer {
+  padding: 32px;
+  display: flex;
+  gap: 32px;
+}
+
+.field {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 50%;
+  border: 5px solid #78bcf3; 
+  width: 140px;
+}
+.value {
+  color: #3a3737d5;
+  font-size: 50px;
+  line-height: 1.2;
+}
